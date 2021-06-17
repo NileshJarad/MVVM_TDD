@@ -4,7 +4,7 @@ interface LoginUseCase {
 }
 
 
-interface LoginUseCaseImpl : LoginUseCase {
+class LoginUseCaseImpl : LoginUseCase {
 
 }
 

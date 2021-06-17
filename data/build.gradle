@@ -35,10 +35,15 @@ dependencies {
 
     implementation rootProject.kotlinStdLib
     implementation project(path: ':domain')
-
+    // Koin dependency injection
+    implementation rootProject.koinAndrid
 
     testImplementation rootProject.junit
     androidTestImplementation rootProject.junitExt
+    testImplementation rootProject.junit
+    testImplementation rootProject.haarmanMockitoKotlin
+    testImplementation rootProject.mockitoInline
+    testImplementation rootProject.mockito
 
 
 }

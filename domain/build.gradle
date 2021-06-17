@@ -10,4 +10,11 @@ java {
 
 dependencies {
     implementation rootProject.kotlinStdLib
+    // Koin dependency injection
+    implementation rootProject.koinAndrid
+
+    testImplementation rootProject.junit
+    testImplementation rootProject.haarmanMockitoKotlin
+    testImplementation rootProject.mockitoInline
+    testImplementation rootProject.mockito
 }

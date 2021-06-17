@@ -45,6 +45,25 @@ dependencies {
     implementation rootProject.androidMaterial
     implementation rootProject.constraintlayout
 
+    implementation rootProject.activityKtx
+    implementation rootProject.fragmetnKtx
+
+    implementation rootProject.lifecycleExtensions
+    implementation rootProject.lifecycleViewmodelKtx
+
+    // Koin dependency injection
+    implementation rootProject.koinAndrid
+    implementation rootProject.koinAndridViewModel
+    implementation rootProject.koinAndroidScopr
+    implementation rootProject.koinAndroidArch
+
+    implementation project(path: ':data')
+    implementation project(path: ':domain')
+
     testImplementation rootProject.junit
     androidTestImplementation rootProject.junitExt
+    testImplementation rootProject.junit
+    testImplementation rootProject.haarmanMockitoKotlin
+    testImplementation rootProject.mockitoInline
+    testImplementation rootProject.mockito
 }
